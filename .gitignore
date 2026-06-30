@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+*.o
+*.out
+*.exe
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Runtime-generated log (keep folder via .gitkeep, ignore generated CSV)
+data/execution_log.csv
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
